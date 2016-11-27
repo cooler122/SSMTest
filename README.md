@@ -3,10 +3,9 @@ SpringMVC+Spring+MyBatis
 
 Frameworks and Tools
 -----------------------------------
-* Java&IDE: JDK6 MyEclipse
+* Java: JDK8
 * Backend:  SpringMVC3.2.9 Spring3.2.9 MyBatis3.1.1 (Configured by annotation)
-* Database: Oracle10g
-* Web Server: Tomcat 7
+* Database: Mysql
 * Build Tool: Maven
 * Other: Druid(database connection pool) JUnit Log4j Jackson FastJson
 
@@ -22,8 +21,3 @@ Code Generator for MyBatis
 * Download these two files in the folder of C:\mybatis, and run the following command:
   java -jar mybatis-generator-core-1.3.2.jar -configfile generator.xml -overwrite
 * Then Java POJOs that match the table structure will be generated.
-
-About
------------------------------------
-* [Github link](https://github.com/ZhibingXie)
-* [Linkedin link](http://www.linkedin.com/in/zhibingxie)
